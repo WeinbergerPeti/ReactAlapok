@@ -1,0 +1,13 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.konyv
+{
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    max-height: 20vh;
+}
