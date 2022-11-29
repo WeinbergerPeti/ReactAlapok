@@ -10,10 +10,11 @@ import "./Konyv.css";
 function Konyv(props)
 {
 
-    function kosarba()
+    function kosarKezeles()
     {
         console.log(props.konyvObj);
-        props.kosarKezelesFv(props.konyvObj)
+        // app.js kosárkezelés hívása
+        props.kosarKezeles(props.konyvObj)
     }
 
     return(
@@ -21,7 +22,8 @@ function Konyv(props)
             <h2>{props.konyvObj.cim}</h2>
             <p>{props.konyvObj.szerzo}</p>
             <p>{props.konyvObj.ar}</p>
-            <button onClick={kosarba}>Kosárba</button>
+            {/* könyv komponenes kosárkezelésének a hívása */}
+            <button onClick={kosarKezeles}>Kosárba</button>
         </div>
     );
 }

@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+}
+
+section
+{
+    margin: auto;
+}
+
+table
+{
+
+    margin: auto;
+    width: 80%;
+
+    border: 1px solid black;
+}
+
+thead, tbody
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td
+{
+    text-align: center;
+    border: 1px solid black;
+
+}

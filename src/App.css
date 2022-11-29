@@ -17,11 +17,16 @@
 
 article
 {
-  min-height: 70vh;
+  min-height: 30vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 80%;
   margin: auto;
+}
+
+section
+{
+  min-height: 30vh;
 }
 
 footer
