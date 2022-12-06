@@ -52,12 +52,15 @@ function Public()
 
   function novel(adat)
   {
-    console.log(adat);
+    // console.log(kosarModell.setDb(adat+1));
+    // console.log(kosarModell.setKosar(adat));
+    kosarModell.setKosar(adat)
   }
 
   function csokken(adat)
   {
-    console.log(adat);
+    console.log(kosarModell.setKosar(-adat));
+    
   }
 
   function torol(adat)
